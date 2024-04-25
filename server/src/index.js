@@ -1,11 +1,13 @@
-import { express } from 'express';
+import express from 'express';
 
 const app = express();
 
-import routes from './routes/index.js';
+import router from './routes/index.js';
 import morgan from 'morgan';
 import { logger } from './utils/winston.js';
 import { initPrisma } from './db/index.js';
+
+const port = process.env.PORT || 8000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -24,7 +26,7 @@ initPrisma(5, 1000)
       next();
     });
 
-    app.use('/api', routes);
+    app.use('/api', router);
 
     app.listen(port, () => {
       console.log(`Server is running on port: http://localhost:${port}/`);

@@ -1,8 +1,8 @@
 import express from 'express';
-const router = express.Router();
+const v0 = express.Router();
 
-router.get('/', (req, res) => {
+v0.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-module.exports = router;
+export default v0
