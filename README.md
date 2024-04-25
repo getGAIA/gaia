@@ -1,4 +1,3 @@
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** We are using markdown "reference style" links for readability.
@@ -14,11 +13,10 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-
 <br />
 <div align="center">
   <a href="https://github.com/getGAIA/gaia">
-    <img src="./Frontend_Application/src/assets/gaia_logo_white.png" alt="Logo" width="150" height="150">
+    <img src="./client/src/assets/gaia_logo_white.png" alt="Logo" width="150" height="150">
   </a>
 
 <h3 align="center">GAIA</h3>
@@ -40,7 +38,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#the-team">The Team</a></li>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Built with</a></li>
       </ul>
     </li>
     <li>
@@ -48,10 +46,9 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -61,27 +58,17 @@
 
 GAIA is a recipe-first grocery app that allows users to search for recipes and add them to their favorites. The app then colates all of the ingredients needed to make the recipe into a shopping list.
 
-
-## The Team that got it started
+## The Team
 
 <table align="center">
   <tr>
-    <td align="center"><a href="https://github.com/bethanyann"><img src="https://avatars.githubusercontent.com/u/21211634?v=4" width="120px;" alt=""/><br /><sub><b>Bethany Ann</b></sub></a><br />👑</td>
-    <td align="center"><a href="https://github.com/wcouturiaux"><img src="https://avatars.githubusercontent.com/u/37006112?v=4" width="120px;" alt=""/><br /><sub><b>Will Couturiaux</b></sub></a><br />💻</td>
     <td align="center"><a href="https://github.com/bduran04"><img src="https://avatars.githubusercontent.com/u/77633748?v=4" width="120px;" alt=""/><br /><sub><b>Belle Duran</b></sub></a><br />💻</td>
-    <td align="center"><a href="https://github.com/seishinleblanc"><img src="https://avatars.githubusercontent.com/u/125917992?v=4" width="120px;" alt=""/><br /><sub><b>Seishin LeBlanc</b></sub></a><br />💻</td>
-    <td align="center"><a href="https://github.com/sohostory"><img src="https://avatars.githubusercontent.com/u/115523196?v=4" width="120px;" alt=""/><br /><sub><b>Hoyoung Lee</b></sub></a><br />💻</td>
-    </tr>
-    <tr>
-    <td align="center"><a href="https://github.com/coffee2theorems"><img src="https://avatars.githubusercontent.com/u/7843313?v=4" width="120px;" alt=""/><br /><sub><b>Ryan Monaghan</b></sub></a><br />👑</td>
-    <td align="center"><a href="https://github.com/KINYUI1"><img src="https://avatars.githubusercontent.com/u/136476146?v=4" width="120px;" alt=""/><br /><sub><b>Clement Kinyui Ndimuangu</b></sub></a><br />💻</td>
     <td align="center"><a href="https://github.com/dissurender"><img src="https://avatars.githubusercontent.com/u/65290988?v=4" width="120px;" alt=""/><br /><sub><b>Rhyn Ogg</b></sub></a><br />💻</td>
-    <td align="center"><a href="https://github.com/humayoonrafei"><img src="https://avatars.githubusercontent.com/u/41838529?v=4" width="120px;" alt=""/><br /><sub><b>Humayoon Rafiei</b></sub></a><br />💻</td>
-    <td align="center"><a href="https://github.com/em-ess"><img src="https://avatars.githubusercontent.com/u/101286675?v=4" width="120px;" alt=""/><br /><sub><b>Michelle Song</b></sub></a><br />💻</td>
   </tr>
 </table>
 
 ## Built With
+
  <br />
 
 [![React][React.js]][React-url] <br />
@@ -93,15 +80,16 @@ GAIA is a recipe-first grocery app that allows users to search for recipes and a
 
 ### Pre-requisites
 
--  Nodejs
--  npm
--  Docker
--  Git
--  Your favorite editor!
+- Nodejs
+- npm
+- Docker
+- Git
+- Your favorite editor!
 
-### How to get GAIA running locally
+### Installation
 
 From your terminal:
+
 - [ ] Clone the repo
 - [ ] Run `npm install` in the /server sub-directory
 - [ ] Run `npm install` in the /client sub-directory
@@ -110,6 +98,7 @@ From your terminal:
 - [ ] Open http://localhost:3000 in your browser
 
 From Vscode:
+
 - [ ] Clone the repo
 - [ ] Run `npm install` in the /client and /server sub-directories with the integrated vscode terminal
 - [ ] Run `npm run dev` in the /client and /server sub-directories with the integrated vscode terminal
@@ -136,10 +125,31 @@ Distributed under the [MIT License][license-url]. See `LICENSE.txt` for more inf
 
 ## Acknowledgments
 
-* [Badges4README](https://github.com/alexandresanlim/Badges4-README.md-Profile)
-* [Material UI](https://mui.com)
+- [Badges4README](https://github.com/alexandresanlim/Badges4-README.md-Profile)
+- [Material UI](https://mui.com)
+
 ### Huge shoutout to the community that made this project possible!
-* [Dallas Software Developer Community](https://www.meetup.com/dallas-software-developers-meetup/)
+
+- [Dallas Software Developer Community](https://www.meetup.com/dallas-software-developers-meetup/)
+
+## The Team that got it started
+
+<table align="center">
+  <tr>
+    <td align="center"><a href="https://github.com/bethanyann"><img src="https://avatars.githubusercontent.com/u/21211634?v=4" width="120px;" alt=""/><br /><sub><b>Bethany Ann</b></sub></a><br />👑</td>
+    <td align="center"><a href="https://github.com/wcouturiaux"><img src="https://avatars.githubusercontent.com/u/37006112?v=4" width="120px;" alt=""/><br /><sub><b>Will Couturiaux</b></sub></a><br />💻</td>
+    <td align="center"><a href="https://github.com/bduran04"><img src="https://avatars.githubusercontent.com/u/77633748?v=4" width="120px;" alt=""/><br /><sub><b>Belle Duran</b></sub></a><br />💻</td>
+    <td align="center"><a href="https://github.com/seishinleblanc"><img src="https://avatars.githubusercontent.com/u/125917992?v=4" width="120px;" alt=""/><br /><sub><b>Seishin LeBlanc</b></sub></a><br />💻</td>
+    <td align="center"><a href="https://github.com/sohostory"><img src="https://avatars.githubusercontent.com/u/115523196?v=4" width="120px;" alt=""/><br /><sub><b>Hoyoung Lee</b></sub></a><br />💻</td>
+    </tr>
+    <tr>
+    <td align="center"><a href="https://github.com/coffee2theorems"><img src="https://avatars.githubusercontent.com/u/7843313?v=4" width="120px;" alt=""/><br /><sub><b>Ryan Monaghan</b></sub></a><br />👑</td>
+    <td align="center"><a href="https://github.com/KINYUI1"><img src="https://avatars.githubusercontent.com/u/136476146?v=4" width="120px;" alt=""/><br /><sub><b>Clement Kinyui Ndimuangu</b></sub></a><br />💻</td>
+    <td align="center"><a href="https://github.com/dissurender"><img src="https://avatars.githubusercontent.com/u/65290988?v=4" width="120px;" alt=""/><br /><sub><b>Rhyn Ogg</b></sub></a><br />💻</td>
+    <td align="center"><a href="https://github.com/humayoonrafei"><img src="https://avatars.githubusercontent.com/u/41838529?v=4" width="120px;" alt=""/><br /><sub><b>Humayoon Rafiei</b></sub></a><br />💻</td>
+    <td align="center"><a href="https://github.com/em-ess"><img src="https://avatars.githubusercontent.com/u/101286675?v=4" width="120px;" alt=""/><br /><sub><b>Michelle Song</b></sub></a><br />💻</td>
+  </tr>
+</table>
 
 <p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
@@ -147,6 +157,7 @@ Distributed under the [MIT License][license-url]. See `LICENSE.txt` for more inf
 <!-- https://github.com/alexandresanlim/Badges4-README.md-Profile#-frameworks--library- -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 <!-- https://github.com/getGAIA/gaia -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/getGAIA/gaia.svg?style=for-the-badge
 [contributors-url]: https://github.com/getGAIA/gaia/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/getGAIA/gaia.svg?style=for-the-badge
