@@ -2,7 +2,7 @@ import { express } from 'express';
 
 const app = express();
 
-import routes from './routes';
+import routes from './routes/index.js';
 import morgan from 'morgan';
 import { logger } from './utils/winston.js';
 import { initPrisma } from './db/index.js';
