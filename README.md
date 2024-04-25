@@ -17,7 +17,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/bethanyann/dsd-cohort-2024">
+  <a href="https://github.com/getGAIA/gaia">
     <img src="./Frontend_Application/src/assets/gaia_logo_white.png" alt="Logo" width="150" height="150">
   </a>
 
@@ -26,9 +26,9 @@
   <p align="center">
     A Recipe-First Grocery App <!-- TODO: make a better one-liner -->
     <br />
-    <a href="https://gotanotheringredientapp.xyz">View Demo</a>
+    <a href="#">View Demo</a>
     ·
-    <a href="https://github.com/bethanyann/dsd-cohort-2024/issues">Report Bug</a>
+    <a href="https://github.com/getGAIA/gaia/issues">Report Bug</a>
   </p>
 </div>
 
@@ -62,7 +62,7 @@
 GAIA is a recipe-first grocery app that allows users to search for recipes and add them to their favorites. The app then colates all of the ingredients needed to make the recipe into a shopping list.
 
 
-## The Team
+## The Team that got it started
 
 <table align="center">
   <tr>
@@ -86,15 +86,16 @@ GAIA is a recipe-first grocery app that allows users to search for recipes and a
 
 [![React][React.js]][React-url] <br />
 [![Material-UI][Material-UI]][Material-UI-url] <br />
-[![Spring][Spring_Boot]][Spring-url] <br />
-[![H2 Database][H2]][H2-url] <br />
+[![Nodejs][Nodejs]][Nodejs-url] <br />
+[![postgres][Postgresql]][Postgresql-url] <br />
 
 ## Getting Started
 
 ### Pre-requisites
 
-- Java 21
+-  Nodejs
 -  npm
+-  Docker
 -  Git
 -  Your favorite editor!
 
@@ -102,19 +103,16 @@ GAIA is a recipe-first grocery app that allows users to search for recipes and a
 
 From your terminal:
 - [ ] Clone the repo
-- [ ] Run `mvn clean install` in the /Backend_Application sub-directory
-- [ ] Run `mvn spring-boot:run` in the /Backend_Application sub-directory
-- [ ] Run `npm install` in the /Frontend_Application sub-directory
-- [ ] Run `npm run start` in the /Frontend_Application sub-directory
+- [ ] Run `npm install` in the /server sub-directory
+- [ ] Run `npm install` in the /client sub-directory
+- [ ] Run `npm run dev` in the /server sub-directory
+- [ ] Run `npm run dev` in the /client sub-directory
+- [ ] Open http://localhost:3000 in your browser
 
 From Vscode:
-- [ ] Install the [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) extension pack
 - [ ] Clone the repo
-- [ ] Follow the instructions in {{create doc to show vscode java launch}}
-- [ ] Run `npm install` in the /Frontend_Application sub-directory with the integrated vscode terminal
-- [ ] Run `npm run start` in the /Frontend_Application sub-directory with the integrated vscode terminal
-
-_Please refer to the [SETUPDOC](https://github.com/bethanyann/dsd-cohort-2024/blob/main/SETUPDOC.md) for more information_
+- [ ] Run `npm install` in the /client and /server sub-directories with the integrated vscode terminal
+- [ ] Run `npm run dev` in the /client and /server sub-directories with the integrated vscode terminal
 
 ## Usage
 
@@ -126,11 +124,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 1. Project scope and goals, ie. User Stories and Feature List
 2. Design, UI, UX
-3. Hachathon
+3. Hackathon
 4. Review and revision
 5. Presentation
 
-See the [open issues](https://github.com/bethanyann/dsd-cohort-2024/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/getGAIA/gaia/issues) for a full list of proposed features (and known issues).
 
 ## License
 
@@ -139,7 +137,6 @@ Distributed under the [MIT License][license-url]. See `LICENSE.txt` for more inf
 ## Acknowledgments
 
 * [Badges4README](https://github.com/alexandresanlim/Badges4-README.md-Profile)
-* [Edamam](https://edamam.com)
 * [Material UI](https://mui.com)
 ### Huge shoutout to the community that made this project possible!
 * [Dallas Software Developer Community](https://www.meetup.com/dallas-software-developers-meetup/)
@@ -149,24 +146,24 @@ Distributed under the [MIT License][license-url]. See `LICENSE.txt` for more inf
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://github.com/alexandresanlim/Badges4-README.md-Profile#-frameworks--library- -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-<!-- https://github.com/bethanyann/dsd-cohort-2024 -->
-[contributors-shield]: https://img.shields.io/github/contributors/bethanyann/dsd-cohort-2024.svg?style=for-the-badge
-[contributors-url]: https://github.com/bethanyann/dsd-cohort-2024/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/bethanyann/dsd-cohort-2024.svg?style=for-the-badge
-[forks-url]: https://github.com/bethanyann/dsd-cohort-2024/network/members
-[stars-shield]: https://img.shields.io/github/stars/bethanyann/dsd-cohort-2024.svg?style=for-the-badge
-[stars-url]: https://github.com/bethanyann/dsd-cohort-2024/stargazers
-[issues-shield]: https://img.shields.io/github/issues/bethanyann/dsd-cohort-2024.svg?style=for-the-badge
-[issues-url]: https://github.com/bethanyann/dsd-cohort-2024/issues
-[license-shield]: https://img.shields.io/github/license/bethanyann/dsd-cohort-2024.svg?style=for-the-badge
-[license-url]: https://github.com/bethanyann/dsd-cohort-2024/blob/master/LICENSE.txt
+<!-- https://github.com/getGAIA/gaia -->
+[contributors-shield]: https://img.shields.io/github/contributors/getGAIA/gaia.svg?style=for-the-badge
+[contributors-url]: https://github.com/getGAIA/gaia/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/getGAIA/gaia.svg?style=for-the-badge
+[forks-url]: https://github.com/getGAIA/gaia/network/members
+[stars-shield]: https://img.shields.io/github/stars/getGAIA/gaia.svg?style=for-the-badge
+[stars-url]: https://github.com/getGAIA/gaia/stargazers
+[issues-shield]: https://img.shields.io/github/issues/getGAIA/gaia.svg?style=for-the-badge
+[issues-url]: https://github.com/getGAIA/gaia/issues
+[license-shield]: https://img.shields.io/github/license/getGAIA/gaia.svg?style=for-the-badge
+[license-url]: https://github.com/getGAIA/gaia/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [Material-UI]: https://img.shields.io/badge/Material-UI-000000?style=for-the-badge&logo=material-ui&logoColor=white
 [Material-UI-url]: https://mui.com/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Spring_Boot]: https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot
-[Spring-url]: https://spring.io/projects/spring-boot
-[H2]: https://img.shields.io/badge/H2-000000?style=for-the-badge&logo=h2&logoColor=white
-[H2-url]: https://www.h2database.com
+[Postgresql]: https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
+[Postgresql-url]: https://www.postgresql.org/
+[Nodejs]: https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
+[Nodejs-url]: https://nodejs.org/
