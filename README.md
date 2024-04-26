@@ -37,7 +37,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#the-team">The Team</a></li>
+        <li><a href="#contributors">The Team</a></li>
         <li><a href="#built-with">Built with</a></li>
       </ul>
     </li>
@@ -58,7 +58,7 @@
 
 GAIA is a recipe-first grocery app that allows users to search for recipes and add them to their favorites. The app then colates all of the ingredients needed to make the recipe into a shopping list.
 
-## The Team
+## Contributors
 
 <table align="center">
   <tr>
