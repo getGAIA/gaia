@@ -1,6 +1,7 @@
-import { TextField, Button, Grid, Link } from "@mui/material";
+import { TextField, Button, Grid, Link, Divider } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
 import { supabase } from "../utils/supabaseClient";
+import GoogleIcon from '@mui/icons-material/Google';
 
 const RegisterForm = () => {
   const validateEmail = (email) => {
@@ -40,7 +41,7 @@ const RegisterForm = () => {
         email,
         password,
       });
-      
+
       if (error) {
         throw error;
       }
@@ -138,25 +139,26 @@ const RegisterForm = () => {
       <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
         Sign Up
       </Button>
-
-      <Button 
-        fullWidth 
-        variant="contained" 
-        color="primary" 
-         // Handle Google login
-        onClick={handleGoogleLogin}
-        sx={{ mt: 3, mb: 2 }}
-      >
-        Register with Google
-      </Button>
-
-      <Grid container>
+      <Grid container direction="column" alignItems="center" sx={{ mb: 2 }}>
         <Grid item>
           <Link component={RouterLink} to="/login" variant="body2">
             {"Already have an account? Sign In"}
           </Link>
         </Grid>
       </Grid>
+
+      <Divider sx={{ mb: 2 }}>or</Divider>
+
+      <Button
+        variant="outlined"
+        fullWidth
+        color="primary"
+        onClick={handleGoogleLogin} // Handle Google login
+        sx={{ mt: 3, mb: 2 }}
+        startIcon={<GoogleIcon />}
+      >
+        Sign In with Google
+      </Button>
     </form>
   );
 };
